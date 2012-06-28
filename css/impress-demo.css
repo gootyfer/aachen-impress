@@ -124,6 +124,10 @@ a:focus {
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
+#video{
+    background: none;
+}
+
 /*
     Because the main point behind the impress.js demo is to demo impress.js
     we display a fallback message for users with browsers that don't support
@@ -285,12 +289,14 @@ h1 {
 h2{
     font-size: 80px;
     text-align: center;
+    color: rgb(75, 75, 75);
 }
-#uc3m{
+#uc3m, #bloom_img, #bloom2_img, #khan_img{
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+
 p{
     text-align: center;
 }
@@ -327,13 +333,12 @@ p{
 /*
     'Tiny ideas' just need some tiny styling.
 */
-#tiny {
+.tiny {
     width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     text-align: center;
-}
-
-#khan{
-    margin-left: -100px;
 }
 
 .footnote {
